@@ -1,0 +1,45 @@
+.leftbar {
+   overflow-y: scroll;
+   position: sticky;
+   top: 50px;
+}
+
+::-webkit-scrollbar {
+   width: 0.4em;
+}
+
+::-webkit-scrollbar-track {
+   background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: rgb(179, 179, 179);
+   border-radius: 1em;
+}
+
+li {
+   list-style: none;
+}
+
+ul { 
+   padding-inline-start: 0;
+}
+
+.leftbarWrapper {
+   margin: 1.2em;
+}
+
+.leftbarOption {
+   display: flex;
+   align-items: center;
+   padding-bottom: 1em;
+}
+
+.leftbarOptionIcon {
+   padding-right: 0.6em;
+}
+
+.leftbarSeperator {
+   margin-block: 1em;
+}
+

@@ -1,0 +1,10 @@
+.leftbarFriend {
+   display: flex;
+   align-items: center;
+   padding-bottom: 1em;
+}
+
+.leftbarFriendText {
+   padding-left: 0.6em;
+}
+

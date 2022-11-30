@@ -1,0 +1,54 @@
+.shareWrapper{
+   padding: 0.6em;
+}
+
+.shareTopContainer {
+   display: flex;
+   align-items: center;
+}
+
+.shareInput {
+   width: 70%;
+   margin-left: 0.6em;
+   margin-right: 0.6em;
+   border: none;
+   font-size: 15px;
+}
+
+.shareInput:focus {
+   outline: none;
+}
+
+.shareSeparator {
+   margin: 1.1em;
+}
+
+.shareBottomContainer {
+   margin-inline: 1.1em;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 1.4em;
+}
+
+.shareOptionsList {
+   display: flex;
+}
+
+.shareOption {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.shareOptionText {
+   font-size: 13px;
+   font-weight: 400;
+   margin-left: 0.2em;
+   margin-right: 1em;
+}
+
+.shareBtn {
+   text-transform: none !important;
+   background-color: #1877f2 !important;
+   padding: 0.2em !important;
+}

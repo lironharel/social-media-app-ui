@@ -1,0 +1,33 @@
+.timelineCoverContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: relative;
+}
+
+.timelineCoverImg {
+   width: 100%;
+   height: 250px;
+   object-fit: cover;
+}
+
+.timelineProfilePhotoContainer {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   top: 150px;
+}
+
+.timelineProfilePhotoImg {
+   height: 150px;
+   width: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   border: 3px solid white;
+   margin-bottom: 0.7em;
+}
+
+.timelineProfilePhotoDesc {
+   font-weight: 300;
+}
